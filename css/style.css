@@ -1,5 +1,35 @@
-.logo{
-    width: 100px;
-    position: relative;
-    margin-top:20px;
+body{
+    
+    background-color: #28b5b5;
+}
+h1{
+    background-color:#126e82 ;
+    padding: 10px;
+    border: solid 3px black;
+    margin-top: -8px;
+    margin-left: -8px;
+}
+
+a{
+    text-decoration: none;
+    padding: 10px;
+    font-style: italic;
+
+}
+a:hover{
+    background-color: #edffec62;
+    color:#126e82 ;
+}
+
+
+.about{
+    height: 500px;
+    background-color: #126e82;
+    background-attachment:fixed ;
+
+}
+#logo{
+    width: 50%;
+    margin-top: 50px;
+    margin-left: 25%;
 }

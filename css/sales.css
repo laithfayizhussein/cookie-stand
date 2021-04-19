@@ -1,0 +1,30 @@
+body{
+    background-color: #28b5b5;
+}
+table{
+    background-color:#126e82;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+  table td {
+    border:3px solid #c8eed9;
+    padding:10px;
+  }
+  table tr:nth-child(even) {
+    background: #c8eed9; 
+  }
+  table tr:hover{
+      border: 3px solid #126e82;
+      background: #28b5b5;
+      color : #edffec
+  }
+
+  table tr:nth-last-child(1) td:nth-last-child(1) {
+    
+    border: solid 7px gold;
+    color: red ;
+    font-size: 20px;
+  }
+

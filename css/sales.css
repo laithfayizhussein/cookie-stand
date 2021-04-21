@@ -28,3 +28,46 @@ table{
     font-size: 20px;
   }
 
+
+  input[type=submit]{
+  background-color: rgb(22, 15, 15);
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  margin-top: 30px;
+  float: right;
+  width: 10%;
+  
+
+  }
+  input:hover{
+    color: rgb(228, 130, 10);
+    background-color: bisque;
+  }
+  #avg {
+  margin-bottom: 3px;
+  margin-left: 31px;
+
+  }
+  #location{
+  margin-left: 80px;
+  }
+  #min{
+  margin-left: 5px;
+  }
+  #avg{
+  margin-bottom: 6px;
+  }
+  #location{
+    margin-bottom: 6px;
+
+  }
+  #min{
+    margin-bottom: 6px;
+
+  }
+  #max{
+    margin-bottom: 6px;
+
+  }

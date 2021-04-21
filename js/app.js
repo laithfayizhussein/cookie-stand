@@ -143,3 +143,25 @@ function tableFooterRow(){
   }
 }
 tableFooterRow();
+
+// adding data from user
+
+
+let dataform = document.getElementById('userEnter');
+dataform.addEventListener('submit',addData);
+
+function addData(event) {
+  event.preventDefault();
+  let locName = event.target.location.value;
+  let userMin = parseInt(event.target.min.value);
+  let userMax = parseInt(event.target.max.value);
+  let avg = parseFloat(event.target.avg.value);
+
+  let newLoc = new Store(locName,userMin,userMax,avg);
+  newLoc.avgCust();
+  newLoc.render();
+  userEnter.reset
+  table.deleteRow(allObjects.length);
+  dataform.reset();
+  tableFooterRow();
+}

@@ -1,4 +1,5 @@
 body{
+    
     width: 960px;
     background-color: #28b5b5;
     display: grid;
@@ -29,34 +30,24 @@ a:hover{
     background-color: #edffec62;
     color:#f652a0 ;
 }
-main section section :nth-child(1) {
-font-size: 48px;
-font-weight: bold;
-color: #f652a0;
-margin-left:  100px;
 
-
-font-family: 'Amatic SC', cursive;
-
-}
 section img {
-    width: 400px;
-    margin-top: 60px;
-    border-radius: 20px;
-    margin-left: 20px;
+    width: 300px;
 
 }
-
-main :nth-child(1){
+main section {
     display: grid;
-    grid-template-columns: 400px 1fr;
-    
+    grid-template-columns: repeat(3,1fr);
+    gap: 120px;
 }
-p{
-    margin-left:  100px;
-    font-size: 25px ;
+.frosted-cookie{
+    margin-top: 35px;
+}
+article h1 {
+    text-align: center;
 
 }
+
 footer{
 
     background-color: #126e82;
